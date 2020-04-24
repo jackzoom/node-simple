@@ -1,0 +1,20 @@
+{
+  "name": "node-simple",
+  "version": "1.0.0",
+  "description": "A simple structure for NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "start": "set debug=app:*&&set lib=local&&node ./bin/www",
+    "hot": "set debug=app:*&&set lib=local&&supervisor  ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackzoom/Node_Simple"
+  },
+  "author": "jackzoom",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1"
+  }
+}
